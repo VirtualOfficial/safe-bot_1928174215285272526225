@@ -135,7 +135,6 @@ bot.on('message', (message) => {
         }}
     }    
     if (command == 'trade') {
-        if (message.channel.id == '465870489848381460') {
         if (message.member.roles.has('465831134429708288')) {
         if (!message.member.roles.has('465831161361334273')) {
             if (!message.member.roles.has('465870621885071380')) {
